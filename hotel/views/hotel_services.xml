@@ -63,7 +63,7 @@
                             </group>
                             <newline />
                             <group>
-                                <separator string="Suplliers" />
+                                <separator string="Suppliers" />
                                 <field
                                     name="seller_ids"
                                     colspan="4"

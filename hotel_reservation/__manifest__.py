@@ -1,13 +1,13 @@
 # See LICENSE file for full copyright and licensing details.
 
 {
-    "name": "Hotel Reservation Management",
+    "name": "顾客预订",
     "version": "13.0.1.0.0",
     "author": "Odoo Community Association (OCA), Serpent Consulting \
                 Services Pvt. Ltd., Odoo S.A.",
     "category": "Generic Modules/Hotel Reservation",
     "license": "AGPL-3",
-    "summary": "Manages Guest Reservation & displays Reservation Summary",
+    "summary": "管理客人预订并显示预订摘要",
     "website": "https://github.com/OCA/vertical-hotel/",
     "depends": ["hotel", "stock", "mail"],
     "data": [
