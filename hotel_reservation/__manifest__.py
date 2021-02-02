@@ -1,7 +1,7 @@
 # See LICENSE file for full copyright and licensing details.
 
 {
-    "name": "顾客预订",
+    "name": "酒店预订",
     "version": "13.0.1.0.0",
     "author": "Odoo Community Association (OCA), Serpent Consulting \
                 Services Pvt. Ltd., Odoo S.A.",

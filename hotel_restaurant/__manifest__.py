@@ -23,4 +23,5 @@
         "wizard/hotel_restaurant_wizard.xml",
     ],
     "installable": True,
+    "application": True,
 }

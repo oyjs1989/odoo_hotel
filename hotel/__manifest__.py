@@ -1,7 +1,7 @@
 # See LICENSE file for full copyright and licensing details.
 
 {
-    "name": "Hotel Management",
+    "name": "酒店管理",
     "version": "13.0.1.0.0",
     "author": "Odoo Community Association (OCA), Serpent Consulting \
                Services Pvt. Ltd., OpenERP SA",
@@ -9,7 +9,7 @@
     "website": "https://github.com/OCA/vertical-hotel/",
     "depends": ["sale_stock", "point_of_sale"],
     "license": "AGPL-3",
-    "summary": "Hotel Management to Manage Folio and Hotel Configuration",
+    "summary": "对账和配置的酒店管理",
     "demo": ["demo/hotel_data.xml"],
     "data": [
         "security/hotel_security.xml",
