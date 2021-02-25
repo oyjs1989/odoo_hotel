@@ -669,7 +669,7 @@ msgstr "后勤服务"
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_housekeeping_wizard__id
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_report_hotel_housekeeping_housekeeping_report__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__activity_exception_icon
@@ -994,7 +994,7 @@ msgstr "未读消息数量"
 #. module: hotel_housekeeping
 #: model:ir.model.fields.selection,name:hotel_housekeeping.selection__hotel_housekeeping__quality__ok
 msgid "Ok"
-msgstr ""
+msgstr "行"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,help:hotel_housekeeping.field_hotel_activity__invoice_policy
@@ -1510,75 +1510,75 @@ msgstr "表格字符串"
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__main_img
 msgid "主图"
-msgstr ""
+msgstr "主图"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__original_price
 msgid "原始价格"
-msgstr ""
+msgstr "原始价格"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__description_wxapp
 msgid "商品描述"
-msgstr ""
+msgstr "商品描述"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__characteristic
 msgid "商品特色"
-msgstr ""
+msgstr "商品特色"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__images_data
 msgid "图片"
-msgstr ""
+msgstr "图片"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__number_good_reputation
 msgid "好评数"
-msgstr ""
+msgstr "好评数"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__qty_public
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__qty_public_tpl
 msgid "库存"
-msgstr ""
+msgstr "库存"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__qty_show
 msgid "库存数量"
-msgstr ""
+msgstr "库存数量"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__number_fav
 msgid "收藏数"
-msgstr ""
+msgstr "收藏数"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__wxapp_published
 msgid "是否上架"
-msgstr ""
+msgstr "是否上架"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__recommend_status
 msgid "是否推荐"
-msgstr ""
+msgstr "是否推荐"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__views
 msgid "浏览量"
-msgstr ""
+msgstr "浏览量"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__present_price
 msgid "现价"
-msgstr ""
+msgstr "现价"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__wxpp_category_id
 msgid "电商分类"
-msgstr ""
+msgstr "电商分类"
 
 #. module: hotel_housekeeping
 #: model:ir.model.fields,field_description:hotel_housekeeping.field_hotel_activity__attr_val_str
 msgid "规格"
-msgstr ""
+msgstr "规格"

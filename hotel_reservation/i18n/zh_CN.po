@@ -123,6 +123,109 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style =“ margin：0px; padding：0px;”>\n"
+"                <p style =“ margin：0px; padding：0px; font-size：13px;”>\n"
+"                    <p>\n"
+"                        <left>您好<strong> $ {object.partner_id.name} </ strong>。\n"
+"                        </ left>\n"
+"                    </ p>\n"
+"                    <p>\n"
+"                        来自<strong> $ {object.warehouse_id.name}的<left>问候\n"
+"                            酒店</ strong>。\n"
+"                        </ left>\n"
+"                    </ p>\n"
+"                    <p>这封电子邮件是为了提醒您，预订位于\n"
+"                        <strong> $ {object.warehouse_id.name}酒店</ strong>。\n"
+"                        ％如果object.warehouse_id.partner_id.city：\n"
+"                        <strong> $ {object.warehouse_id.partner_id.city} </ strong>，\n"
+"                        ％ 万一\n"
+"                        ％如果object.warehouse_id.partner_id.country_id.name：\n"
+"                        <strong>\n"
+"                            $ {object.warehouse_id.partner_id.country_id.name} </ strong>\n"
+"                        。\n"
+"                        ％ 万一\n"
+"                        您的签到已在日期<strong>上得到确认\n"
+"                            $ {object.date_order} </ strong>。\n"
+"                        请查找有关预订的所有详细信息\n"
+"                        如下所示：\n"
+"                    </ p>\n"
+"                    <br/>\n"
+"                    <strong>详细信息：</ strong>\n"
+"                    <br/>\n"
+"                    <p style =“ border-left：1px solid＃8e0000; margin-left：30px;”>\n"
+"                        ＆amp; nbsp;客人姓名：\n"
+"                        <strong> $ {object.partner_id.name} </ strong>\n"
+"                        <br/>\n"
+"                        ＆amp; nbsp;到达日期：\n"
+"                        <strong> $ {object.checkin} </ strong>\n"
+"                        <br/>\n"
+"                        && nbsp;＆amp; nbsp;出发日期：\n"
+"                        <strong> $ {object.checkout} </ strong>\n"
+"                        <br/>\n"
+"                        ＆nbsp;＆nbsp;预订号：\n"
+"                        <strong> $ {object.reservation_no} </ strong>\n"
+"                        <br/>\n"
+"                        人数：<strong>\n"
+"                        $ {object.adults}\n"
+"                    </ strong>成人和<strong> $ {object.children} </ strong>儿童\n"
+"                        <br/>\n"
+"                    </ p>\n"
+"                    ＆amp; nbsp;＆amp; nbsp;\n"
+"                    <strong>每晚房价</ strong>：\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"                    <table border =“ 1” cellpadding =“ 4” style =“ margin-left：30px;”>\n"
+"                        <tr>\n"
+"                            <th>房间号</ th>\n"
+"                            <th>金额</ th>\n"
+"                        </ tr>\n"
+"                        ％for object.reservation_line_ids中的行：\n"
+"                        行中的第2行的％。保留：\n"
+"                        <tr>\n"
+"                            <td> $ {line2.product_id.name} </ td>\n"
+"                            <td> $ {line2.product_id.list_price} </ td>\n"
+"                        </ tr>\n"
+"                        ％endfor\n"
+"                        ％endfor\n"
+"                    </ table>\n"
+"                    <br/>\n"
+"                    <p>如果您能及时告诉我们，我们将不胜感激\n"
+"                        您的日程安排或计划中有任何更改。\n"
+"                        请立即通知我们，以便我们退款给您\n"
+"                        根据酒店政策收取费用。\n"
+"                        我们相信您会找到我们的服务\n"
+"                        满意的。我们期待为您提供优质\n"
+"                        我们酒店的服务。\n"
+"                    </ p>\n"
+"                    <br/>\n"
+"                    <strong>最好的问候</ strong>，\n"
+"                    <br/>\n"
+"                    <br/>\n"
+"                    <strong>预订团队</ strong>\n"
+"                    <br/>\n"
+"                    [<strong> $ {object.warehouse_id.name}酒店</ strong>]\n"
+"                    <br/>\n"
+"                    ％如果object.warehouse_id.partner_id.street：\n"
+"                    <strong> $ {object.warehouse_id.partner_id.street} </ strong>\n"
+"                    <br/>\n"
+"                    ％ 万一\n"
+"                    ％如果object.warehouse_id.partner_id.city：\n"
+"                    <strong> $ {object.warehouse_id.partner_id.city} </ strong>，\n"
+"                    <br/>\n"
+"                    ％ 万一\n"
+"                    ％如果object.warehouse_id.partner_id.country_id.name：\n"
+"                    <strong>\n"
+"                        $ {object.warehouse_id.partner_id.country_id.name} </ strong>\n"
+"                    ，\n"
+"                    <br/>\n"
+"                    ％ 万一\n"
+"                    <br/>\n"
+"                    ％如果object.warehouse_id.partner_id.website：\n"
+"                    <strong> $ {object.warehouse_id.partner_id.website} </ strong>\n"
+"                    <br/>\n"
+"                    ％ 万一\n"
+"                </ p>\n"
+"            </ div>"
 
 #. module: hotel_reservation
 #: model:mail.template,body_html:hotel_reservation.email_template_hotel_reservation
@@ -236,19 +339,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<strong>#No</strong>"
-msgstr ""
+msgstr "<strong>＃否</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<strong>Check-In Date</strong>"
-msgstr ""
+msgstr "<strong>入住日期</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<strong>Check-Out Date</strong>"
-msgstr ""
+msgstr "<strong>退房日期</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
@@ -263,30 +366,30 @@ msgstr "<strong>从:</strong>"
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<strong>Guest Name</strong>"
-msgstr ""
+msgstr "<strong>来宾姓名</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_maxroom_qweb
 msgid "<strong>No of Times used</strong>"
-msgstr ""
+msgstr "<strong>未使用次数</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<strong>Room Details</strong>"
-msgstr ""
+msgstr "<strong>房间详细信息</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_maxroom_qweb
 msgid "<strong>Room No</strong>"
-msgstr ""
+msgstr "<strong>房间号</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 msgid "<strong>Room Type</strong>"
-msgstr ""
+msgstr "<strong>房间类型</ strong>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
@@ -299,17 +402,17 @@ msgstr "<strong>至:</strong>"
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkin_qweb
 msgid "<u>Check-In Guest List</u>"
-msgstr ""
+msgstr "<u>入住客人名单</ u>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_checkout_qweb
 msgid "<u>Check-Out Guest List</u>"
-msgstr ""
+msgstr "<u>退房客人名单</ u>"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_room_reservation_qweb
 msgid "<u>Reservation List</u>"
-msgstr ""
+msgstr "<u>预订清单</ u>"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_needaction
@@ -335,22 +438,22 @@ msgstr "活动状态"
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__adults
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__adults
 msgid "Adults"
-msgstr ""
+msgstr "大人"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_reservation_wizard
 msgid "Allow to generate a reservation"
-msgstr ""
+msgstr "允许生成预订"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_wizard_make_folio
 msgid "Allow to generate the folio"
-msgstr ""
+msgstr "允许生成对开"
 
 #. module: hotel_reservation
 #: model:ir.model.fields.selection,name:hotel_reservation.selection__hotel_room_reservation_line__state__assigned
 msgid "Assigned"
-msgstr ""
+msgstr "已分配"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_attachment_count
@@ -360,18 +463,18 @@ msgstr "附件数量"
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_report_hotel_reservation_report_checkin_qweb
 msgid "Auxiliar to get the check in report"
-msgstr ""
+msgstr "辅助获取签到报告"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_report_hotel_reservation_report_checkout_qweb
 msgid "Auxiliar to get the check out report"
-msgstr ""
+msgstr "辅助获取退房报告"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_report_hotel_reservation_report_maxroom_qweb
 #: model:ir.model,name:hotel_reservation.model_report_hotel_reservation_report_room_reservation_qweb
 msgid "Auxiliar to get the room report"
-msgstr ""
+msgstr "辅助获取房间报告"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
@@ -380,6 +483,8 @@ msgid ""
 "Before choosing a room,\n"
 " You have to select a Check in date or a Check out  date in the reservation form."
 msgstr ""
+"选择房间之前\n"
+" 您必须在预订表格中选择入住日期或退房日期。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields.selection,name:hotel_reservation.selection__hotel_reservation__state__cancel
@@ -393,71 +498,71 @@ msgstr "取消"
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Cancel Reservation"
-msgstr ""
+msgstr "取消预订"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__check_in
 msgid "Check In"
-msgstr ""
+msgstr "报到"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_reservation_line__check_in
 msgid "Check In Date"
-msgstr ""
+msgstr "登记日期"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__check_out
 msgid "Check Out"
-msgstr ""
+msgstr "查看"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_reservation_line__check_out
 msgid "Check Out Date"
-msgstr ""
+msgstr "离开日期"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
 #, python-format
 msgid "Check-in date should be greater than the current date."
-msgstr ""
+msgstr "入住日期应大于当前日期。"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
 #, python-format
 msgid "Check-out date should be greater than Check-in date."
-msgstr ""
+msgstr "退房日期应大于入住日期。"
 
 #. module: hotel_reservation
 #: model:ir.actions.report,name:hotel_reservation.hotel_checkin_details
 msgid "CheckIn Detail"
-msgstr ""
+msgstr "签到详细信息"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.hotel_reservation_wizard_form_view
 msgid "CheckIn List"
-msgstr ""
+msgstr "入住清单"
 
 #. module: hotel_reservation
 #: model:ir.actions.report,name:hotel_reservation.hotel_checkout_details
 msgid "CheckOut Detail"
-msgstr ""
+msgstr "结帐详情"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.hotel_reservation_wizard_form_view
 msgid "CheckOut List"
-msgstr ""
+msgstr "结帐清单"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_quick_reservation.py:0
 #: code:addons/hotel_reservation/models/hotel_room.py:0
 #, python-format
 msgid "Checkout date should be greater than Checkin date."
-msgstr ""
+msgstr "退房日期应大于入住日期。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__children
 msgid "Children"
-msgstr ""
+msgstr "小孩儿"
 
 #. module: hotel_reservation
 #: model:ir.model.fields.selection,name:hotel_reservation.selection__hotel_reservation__state__confirm
@@ -470,7 +575,7 @@ msgstr "确认"
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.make_folio_wizard_form_view
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Create Folio"
-msgstr ""
+msgstr "创建作品集"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__create_uid
@@ -497,12 +602,12 @@ msgstr "创建时间"
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.hotel_calendar_view
 msgid "Current Reservation"
-msgstr ""
+msgstr "当前预订"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_search
 msgid "Current Reservations"
-msgstr ""
+msgstr "当前预订"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__partner_id
@@ -512,17 +617,17 @@ msgstr "客户"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary__date_from
 msgid "Date From"
-msgstr ""
+msgstr "起始日期"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__date_order
 msgid "Date Ordered"
-msgstr ""
+msgstr "订购日期"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary__date_to
 msgid "Date To"
-msgstr ""
+msgstr "日期至"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__partner_shipping_id
@@ -533,7 +638,7 @@ msgstr "交货地址"
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__partner_shipping_id
 msgid "Delivery addressfor current reservation. "
-msgstr ""
+msgstr "当前预订的收货地址。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__display_name
@@ -553,7 +658,7 @@ msgstr "显示名称"
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.make_folio_wizard_form_view
 msgid "Do you really want to create the Folio ?"
-msgstr ""
+msgstr "您真的要创建Folio吗？"
 
 #. module: hotel_reservation
 #: model:ir.model.fields.selection,name:hotel_reservation.selection__hotel_reservation__state__done
@@ -575,18 +680,18 @@ msgstr "结束日期"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__checkin
 msgid "Expected-Date-Arrival"
-msgstr ""
+msgstr "预计到达日期"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__checkout
 msgid "Expected-Date-Departure"
-msgstr ""
+msgstr "预计日期出发"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__folios_ids
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Folio"
-msgstr ""
+msgstr "对开"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_follower_ids
@@ -611,13 +716,13 @@ msgstr "分组"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_wizard_make_folio__grouped
 msgid "Group the Folios"
-msgstr ""
+msgstr "将作品集分组"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__partner_id
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_search
 msgid "Guest Name"
-msgstr ""
+msgstr "客人姓名"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
@@ -628,43 +733,43 @@ msgstr "历史"
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__warehouse_id
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__warehouse_id
 msgid "Hotel"
-msgstr ""
+msgstr "旅馆"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_folio_line
 msgid "Hotel Folio Room Line"
-msgstr ""
+msgstr "Hotel Folio客房线"
 
 #. module: hotel_reservation
 #: model:mail.template,subject:hotel_reservation.email_template_hotel_reservation
 msgid "Hotel Reservation Detail"
-msgstr ""
+msgstr "酒店订房明细"
 
 #. module: hotel_reservation
 #: model:mail.template,subject:hotel_reservation.mail_template_reservation_reminder_24hrs
 msgid "Hotel Reservation Reminder"
-msgstr ""
+msgstr "酒店预订提醒"
 
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_wizard
 #: model:ir.ui.menu,name:hotel_reservation.wizard_res_menu
 msgid "Hotel Reservation Report"
-msgstr ""
+msgstr "酒店预订报告"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_room
 msgid "Hotel Room"
-msgstr ""
+msgstr "旅馆房间"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_room_reservation_line
 msgid "Hotel Room Reservation"
-msgstr ""
+msgstr "酒店客房预订"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__reservation_line_ids
 msgid "Hotel room reservation details."
-msgstr ""
+msgstr "酒店客房预订的详细信息。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__id
@@ -679,7 +784,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary__id
 #: model:ir.model.fields,field_description:hotel_reservation.field_wizard_make_folio__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__activity_exception_icon
@@ -710,7 +815,7 @@ msgstr "如果勾选此项， 某些消息将会产生传递错误。"
 msgid ""
 "Inform Guest About Reservation Before 24 Hours\n"
 "        "
-msgstr ""
+msgstr "24小时前通知客人预订"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__partner_invoice_id
@@ -721,7 +826,7 @@ msgstr "发票地址"
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__partner_invoice_id
 msgid "Invoice address for current reservation."
-msgstr ""
+msgstr "当前预订的发票地址。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_is_follower
@@ -778,17 +883,17 @@ msgstr "附件"
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.act_make_folio
 msgid "Make Folios"
-msgstr ""
+msgstr "制作作品集"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.report_maxroom_qweb
 msgid "Max Room Used List"
-msgstr ""
+msgstr "最大房间使用清单"
 
 #. module: hotel_reservation
 #: model:ir.actions.report,name:hotel_reservation.hotel_maxroom_details
 msgid "MaxRoom Detail"
-msgstr ""
+msgstr "最大房间细节"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_has_error
@@ -823,7 +928,7 @@ msgstr "下一活动类型"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__no_of_folio
 msgid "No. Folio"
-msgstr ""
+msgstr "号对开本"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_needaction_counter
@@ -834,17 +939,17 @@ msgstr "操作次数"
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
 #, python-format
 msgid "Number of Adults must be Positive value."
-msgstr ""
+msgstr "成人人数必须为正值。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__adults
 msgid "Number of adults there in the guest list. "
-msgstr ""
+msgstr "来宾列表中的成人人数。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__children
 msgid "Number of children there in guest list."
-msgstr ""
+msgstr "来宾列表中的孩子人数。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_has_error_counter
@@ -875,40 +980,40 @@ msgstr "按月订购"
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__partner_order_id
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__partner_order_id
 msgid "Ordering Contact"
-msgstr ""
+msgstr "订购联系人"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_room.py:0
 #, python-format
 msgid "Please Check Rooms Status for %s."
-msgstr ""
+msgstr "请检查“％s”的房间状态。"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
 #, python-format
 msgid "Please Select Rooms For Reservation."
-msgstr ""
+msgstr "请选择要预订的房间。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__pricelist_id
 msgid "Pricelist for current reservation."
-msgstr ""
+msgstr "当前预订的价格表。"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.quick_room_reservation_form_view
 msgid "Quick Reservation"
-msgstr ""
+msgstr "快速预订"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_quick_room_reservation
 msgid "Quick Room Reservation"
-msgstr ""
+msgstr "快速预订房间"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_room.py:0
 #, python-format
 msgid "Reconcile Write-Off"
-msgstr ""
+msgstr "核对冲销"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_reservation
@@ -925,18 +1030,18 @@ msgstr "保留"
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__reservation_line_ids
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Reservation Line"
-msgstr ""
+msgstr "预约专线"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.hotel_reservation_wizard_form_view
 msgid "Reservation List"
-msgstr ""
+msgstr "预订清单"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__reservation_no
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Reservation No"
-msgstr ""
+msgstr "预约号码"
 
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_summary
@@ -944,19 +1049,19 @@ msgstr ""
 #: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_summary
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Reservation Summary"
-msgstr ""
+msgstr "预订摘要"
 
 #. module: hotel_reservation
 #: model:ir.actions.act_window,name:hotel_reservation.action_hotel_reservation_tree_all
 #: model:ir.ui.menu,name:hotel_reservation.menu_action_hotel_reservation_tree_all
 #: model:ir.ui.menu,name:hotel_reservation.menu_hotel_reservation
 msgid "Reservations"
-msgstr ""
+msgstr "订座"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation_line__reserve
 msgid "Reserve"
-msgstr ""
+msgstr "保留"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__activity_user_id
@@ -966,14 +1071,14 @@ msgstr "责任用户"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__room_id
 msgid "Room"
-msgstr ""
+msgstr "房间"
 
 #. module: hotel_reservation
 #: model:ir.actions.server,name:hotel_reservation.room_analytic_cron_ir_actions_server
 #: model:ir.cron,cron_name:hotel_reservation.room_analytic_cron
 #: model:ir.cron,name:hotel_reservation.room_analytic_cron
 msgid "Room Analysis"
-msgstr ""
+msgstr "房间分析"
 
 #. module: hotel_reservation
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
@@ -981,59 +1086,59 @@ msgstr ""
 msgid ""
 "Room Capacity Exceeded \n"
 " Please Select Rooms According to Members Accomodation."
-msgstr ""
+msgstr "超出房间容量请根据会员住宿选择房间。"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Room Number"
-msgstr ""
+msgstr "房间号"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_room_form_inherited
 msgid "Room Reservation"
-msgstr ""
+msgstr "预订房间"
 
 #. module: hotel_reservation
 #: model:ir.actions.report,name:hotel_reservation.hotel_roomres_details
 msgid "Room Reservation Detail"
-msgstr ""
+msgstr "客房预订详细信息"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_room_form_inherited
 msgid "Room Reservation Line"
-msgstr ""
+msgstr "客房预订专线"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Room Reservation Summary"
-msgstr ""
+msgstr "客房预订摘要"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room__room_reservation_line_ids
 msgid "Room Reserve Line"
-msgstr ""
+msgstr "客房预订线"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_reservation_line__state
 msgid "Room Status"
-msgstr ""
+msgstr "房间状态"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary__room_summary
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Room Summary"
-msgstr ""
+msgstr "房间总结"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation_line__categ_id
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Room Type"
-msgstr ""
+msgstr "房型"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.hotel_reservation_wizard_form_view
 msgid "Room Used Maximum"
-msgstr ""
+msgstr "最多使用的房间"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_reservation_line__room_id
@@ -1048,12 +1153,12 @@ msgstr "房间线"
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_room_reservation_summary
 msgid "Room reservation summary"
-msgstr ""
+msgstr "客房预订摘要"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Rooms"
-msgstr ""
+msgstr "房间数"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_has_sms_error
@@ -1068,17 +1173,17 @@ msgstr "保存"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__pricelist_id
 msgid "Scheme"
-msgstr ""
+msgstr "方案"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Select Room"
-msgstr ""
+msgstr "选择房间"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
 msgid "Send Reservation Email"
-msgstr ""
+msgstr "发送预订电子邮件"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.view_hotel_reservation_form
@@ -1089,7 +1194,7 @@ msgstr "设置为草稿"
 #: code:addons/hotel_reservation/models/hotel_reservation.py:0
 #, python-format
 msgid "Sorry, you can only delete the reservation when it's draft!"
-msgstr ""
+msgstr "抱歉，您只能在预定开始时删除预定！"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation_wizard__date_start
@@ -1117,18 +1222,18 @@ msgstr ""
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_room_reservation_summary__summary_header
 msgid "Summary Header"
-msgstr ""
+msgstr "摘要标题"
 
 #. module: hotel_reservation
 #: model_terms:ir.ui.view,arch_db:hotel_reservation.room_reservation_summary_form_view
 msgid "Summary Period"
-msgstr ""
+msgstr "摘要期"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__partner_order_id
 msgid ""
 "The name and address of the contact that requested the order or quotation."
-msgstr ""
+msgstr "请求订购或报价的联系人的姓名和地址。"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,help:hotel_reservation.field_hotel_reservation__activity_exception_decoration
@@ -1138,7 +1243,7 @@ msgstr "记录的异常活动的类型。"
 #. module: hotel_reservation
 #: model:ir.model.fields.selection,name:hotel_reservation.selection__hotel_room_reservation_line__state__unassigned
 msgid "Unassigned"
-msgstr ""
+msgstr "未分配"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__message_unread
@@ -1156,7 +1261,7 @@ msgstr "未读消息计数器"
 msgid ""
 "User is not able to delete the room after the room in %s state in "
 "reservation"
-msgstr ""
+msgstr "预订中处于％s状态的房间后，用户无法删除房间"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_reservation__website_message_ids
@@ -1174,7 +1279,7 @@ msgstr "网上沟通记录"
 msgid ""
 "You tried to Confirm Reservation with room those already reserved in this "
 "Reservation Period. Overlap Dates are %s"
-msgstr ""
+msgstr "您试图用在此预订期内已预订的房间确认预订。重叠日期为％s"
 
 #. module: hotel_reservation
 #: model:ir.model,name:hotel_reservation.model_hotel_folio
@@ -1184,7 +1289,7 @@ msgstr "酒店新对开"
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_quick_room_reservation__pricelist_id
 msgid "pricelist"
-msgstr ""
+msgstr "价位表"
 
 #. module: hotel_reservation
 #: model:ir.model.fields,field_description:hotel_reservation.field_hotel_room_reservation_line__status

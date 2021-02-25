@@ -17,74 +17,74 @@ msgstr ""
 #: model:ir.model.fields.selection,name:report_hotel_restaurant.selection__report_hotel_restaurant_status__state__confirm
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Confirm"
-msgstr ""
+msgstr "确认"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields.selection,name:report_hotel_restaurant.selection__report_hotel_restaurant_status__state__done
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields.selection,name:report_hotel_restaurant.selection__report_hotel_restaurant_status__state__draft
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Draft"
-msgstr ""
+msgstr "草案"
 
 #. module: report_hotel_restaurant
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Hotel Restaurant Status"
-msgstr ""
+msgstr "酒店餐厅状态"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "最后修改时间"
 
 #. module: report_hotel_restaurant
 #: model:ir.model,name:report_hotel_restaurant.model_report_hotel_restaurant_status
 msgid "Reservation By State"
-msgstr ""
+msgstr "国家预约"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status__reservation_id
 msgid "Reservation No"
-msgstr ""
+msgstr "预约号码"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status__no_of_reservation_order
 msgid "Reservation Order No"
-msgstr ""
+msgstr "预订单号"
 
 #. module: report_hotel_restaurant
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Rooms in confirm state"
-msgstr ""
+msgstr "房间处于确认状态"
 
 #. module: report_hotel_restaurant
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Rooms in done state"
-msgstr ""
+msgstr "房间处于完成状态"
 
 #. module: report_hotel_restaurant
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.report_hotel_restaurant_status_search
 msgid "Rooms in draft state"
-msgstr ""
+msgstr "客房处于草稿状态"
 
 #. module: report_hotel_restaurant
 #: model:ir.model.fields,field_description:report_hotel_restaurant.field_report_hotel_restaurant_status__state
 msgid "State"
-msgstr ""
+msgstr "状态"
 
 #. module: report_hotel_restaurant
 #: model:ir.actions.act_window,name:report_hotel_restaurant.action_report_hotel_restaurant_status_tree_graph
@@ -94,9 +94,9 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.view_hotel_restaurant_status_graph_bar
 #: model_terms:ir.ui.view,arch_db:report_hotel_restaurant.view_hotel_restaurant_status_tree
 msgid "States By Restaurant"
-msgstr ""
+msgstr "餐厅状态"
 
 #. module: report_hotel_restaurant
 #: model:ir.actions.act_window,name:report_hotel_restaurant.action_report_hotel_restaurant_board
 msgid "States By Restaurants"
-msgstr ""
+msgstr "餐厅状态"

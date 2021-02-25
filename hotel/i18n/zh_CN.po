@@ -32,7 +32,7 @@ msgstr "产品"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_kanban
 msgid "<span title=\"fa_icon\" class=\"fa fa-bars fa-lg\"/>"
-msgstr ""
+msgstr "<span title =“ fa_icon” class =“ fa fa-bars fa-lg” />"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.report_hotel_folio
@@ -47,7 +47,7 @@ msgstr "<strong>合格</strong>"
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.report_hotel_folio
 msgid "<strong>顾客姓名</strong>"
-msgstr ""
+msgstr "<strong>顾客姓名</ strong>"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.report_hotel_folio
@@ -102,7 +102,10 @@ msgid ""
 "A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
-msgstr "可存储产品是您管理库存的产品。必须安装库存应用程序。\n 易耗品是指未管理库存的产品。\n 服务是您提供的非物质产品。"
+msgstr ""
+"可存储产品是您管理库存的产品。必须安装库存应用程序。\n"
+" 易耗品是指未管理库存的产品。\n"
+" 服务是您提供的非物质产品。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__access_warning
@@ -365,12 +368,12 @@ msgstr "取消对开"
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__capacity
 msgid "Capacity"
-msgstr ""
+msgstr "容量"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_kanban
 msgid "Capacity:"
-msgstr ""
+msgstr "容量："
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__product_uom_category_id
@@ -378,43 +381,43 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_type__categ_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__product_uom_category_id
 msgid "Category"
-msgstr ""
+msgstr "类别"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__route_from_categ_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__route_from_categ_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__route_from_categ_ids
 msgid "Category Routes"
-msgstr ""
+msgstr "类别路线"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__pos_categ_id
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__pos_categ_id
 #: model:ir.model.fields,help:hotel.field_hotel_services__pos_categ_id
 msgid "Category used in the Point of Sale."
-msgstr ""
+msgstr "销售点中使用的类别。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__checkin_date
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__checkin_date
 msgid "Check In"
-msgstr ""
+msgstr "报到"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_room_line__check_in
 msgid "Check In Date"
-msgstr ""
+msgstr "登记日期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__checkout_date
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__checkout_date
 msgid "Check Out"
-msgstr ""
+msgstr "查看"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_room_line__check_out
 msgid "Check Out Date"
-msgstr ""
+msgstr "离开日期"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__to_weight
@@ -423,46 +426,46 @@ msgstr ""
 msgid ""
 "Check if the product should be weighted using the hardware scale "
 "integration."
-msgstr ""
+msgstr "使用硬件秤集成检查产品是否应称重。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__available_in_pos
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__available_in_pos
 #: model:ir.model.fields,help:hotel.field_hotel_services__available_in_pos
 msgid "Check if you want this product to appear in the Point of Sale."
-msgstr ""
+msgstr "检查您是否希望该产品出现在销售点中。"
 
 #. module: hotel
 #: code:addons/hotel/models/hotel_services.py:0
 #, python-format
 msgid "Checkout must be greater or equal checkin date"
-msgstr ""
+msgstr "退房必须大于或等于入住日期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities_type__child_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_type__child_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__child_id
 msgid "Child Categories"
-msgstr ""
+msgstr "儿童类别"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__color
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__color
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__color
 msgid "Color Index"
-msgstr ""
+msgstr "颜色指数"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__combination_indices
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__combination_indices
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__combination_indices
 msgid "Combination Indices"
-msgstr ""
+msgstr "组合指数"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "公司介绍"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__company_id
@@ -472,29 +475,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__company_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__company_id
 msgid "Company"
-msgstr ""
+msgstr "公司"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities_type__complete_name
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_type__complete_name
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__complete_name
 msgid "Complete Name"
-msgstr ""
+msgstr "全名"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__effective_date
 msgid "Completion date of the first delivery order."
-msgstr ""
+msgstr "第一个交货订单的完成日期。"
 
 #. module: hotel
 #: model:ir.ui.menu,name:hotel.hotel_configuration_menu
 msgid "Configuration"
-msgstr ""
+msgstr "组态"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Confirm Sale"
-msgstr ""
+msgstr "确认销售"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio_line__product_uom_category_id
@@ -502,28 +505,28 @@ msgstr ""
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
-msgstr ""
+msgstr "如果计量单位属于同一类别，则只能在它们之间进行转换。转换将基于比率进行。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__standard_price
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__standard_price
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__standard_price
 msgid "Cost"
-msgstr ""
+msgstr "成本"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__cost_currency_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__cost_currency_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__cost_currency_id
 msgid "Cost Currency"
-msgstr ""
+msgstr "成本货币"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Cost Method"
-msgstr ""
+msgstr "成本法"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__cost_method
@@ -533,13 +536,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__property_cost_method
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__cost_method
 msgid "Costing Method"
-msgstr ""
+msgstr "成本核算方法"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_sale_advance_payment_inv__advance_payment_method
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Create Invoice"
-msgstr ""
+msgstr "创建发票"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__create_uid
@@ -555,7 +558,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__create_uid
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "由...制作"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__create_date
@@ -571,7 +574,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__create_date
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__create_date
 msgid "Created on"
-msgstr ""
+msgstr "创建于"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__date_order
@@ -579,6 +582,8 @@ msgid ""
 "Creation date of draft/sent orders,\n"
 "Confirmation date of confirmed orders."
 msgstr ""
+"草稿/已发送订单的创建日期，\n"
+"确认订单的确认日期。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__currency_id
@@ -588,17 +593,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__currency_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "货币"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__currency_rate
 msgid "Currency Rate"
-msgstr ""
+msgstr "货币汇率"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_search
 msgid "Current Booking"
-msgstr ""
+msgstr "当前预订"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__qty_available
@@ -611,12 +616,17 @@ msgid ""
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
+"当前产品数量。\n"
+"在单个存货地点的情况下，这包括存储在该地点或其任何子项中的货物。\n"
+"在单个仓库的情况下，这包括存储在该仓库或其任何子级的库存位置中的货物。\n"
+"存放在此商店或其任何子级仓库的库存位置。\n"
+"否则，这包括存储在任何“内部”类型的库存地点中的货物。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__product_custom_attribute_value_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__product_custom_attribute_value_ids
 msgid "Custom Values"
-msgstr ""
+msgstr "自定义值"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__partner_id
@@ -624,31 +634,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__order_partner_id
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_search
 msgid "Customer"
-msgstr ""
+msgstr "顾客"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__sale_delay
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__sale_delay
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__sale_delay
 msgid "Customer Lead Time"
-msgstr ""
+msgstr "客户交货时间"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__access_url
 msgid "Customer Portal URL"
-msgstr ""
+msgstr "客户门户网址"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__partner_ref
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__partner_ref
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__partner_ref
 msgid "Customer Ref"
-msgstr ""
+msgstr "客户参考"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__client_order_ref
 msgid "Customer Reference"
-msgstr ""
+msgstr "客户参考"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__taxes_id
@@ -658,43 +668,43 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Customer Taxes"
-msgstr ""
+msgstr "客户税"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Customer taxes applied on the service."
-msgstr ""
+msgstr "客户税适用于服务。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "Customer taxes apply on the perticular room."
-msgstr ""
+msgstr "客户税适用于特定房间。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__signed_on
 msgid "Date of the signature."
-msgstr ""
+msgstr "签名日期。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__supplier_taxes_id
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__supplier_taxes_id
 #: model:ir.model.fields,help:hotel.field_hotel_services__supplier_taxes_id
 msgid "Default taxes used when buying the product."
-msgstr ""
+msgstr "购买产品时使用的默认税。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__taxes_id
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__taxes_id
 #: model:ir.model.fields,help:hotel.field_hotel_services__taxes_id
 msgid "Default taxes used when selling the product."
-msgstr ""
+msgstr "销售产品时使用的默认税。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__uom_id
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__uom_id
 #: model:ir.model.fields,help:hotel.field_hotel_services__uom_id
 msgid "Default unit of measure used for all stock operations."
-msgstr ""
+msgstr "用于所有库存业务的默认计量单位。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__uom_po_id
@@ -703,51 +713,51 @@ msgstr ""
 msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
-msgstr ""
+msgstr "用于采购订单的默认计量单位。它必须与默认度量单位属于同一类别。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 msgid "Define supplier taxes if there any on the ty."
-msgstr ""
+msgstr "定义供应商税（如果有）。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__seller_ids
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__seller_ids
 #: model:ir.model.fields,help:hotel.field_hotel_services__seller_ids
 msgid "Define vendor pricelists."
-msgstr ""
+msgstr "定义供应商价格表。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_kanban
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__qty_delivered_manual
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__qty_delivered_manual
 msgid "Delivered Manually"
-msgstr ""
+msgstr "手动交付"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__qty_delivered
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__qty_delivered
 msgid "Delivered Quantity"
-msgstr ""
+msgstr "交货数量"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__partner_shipping_id
 msgid "Delivery Address"
-msgstr ""
+msgstr "邮寄地址"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__commitment_date
 msgid "Delivery Date"
-msgstr ""
+msgstr "交货日期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__delivery_count
 msgid "Delivery Orders"
-msgstr ""
+msgstr "交货单"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__expected_date
@@ -757,6 +767,7 @@ msgid ""
 "shipping, the shipping policy of the order will be taken into account to "
 "either use the minimum or maximum lead time of the order lines."
 msgstr ""
+"您可以向客户保证的交货日期，该日期是根据订购产品（如果是维修产品）的最短交货时间计算的。在运输的情况下，将考虑订单的运输政策以使用订单行的最小或最大提前期。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__sale_delay
@@ -765,7 +776,7 @@ msgstr ""
 msgid ""
 "Delivery lead time, in days. It's the number of days, promised to the "
 "customer, between the confirmation of the sales order and the delivery."
-msgstr ""
+msgstr "交货时间，以天为单位。这是向客户承诺的从确认销售订单到交货之间的天数。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__route_ids
@@ -775,7 +786,7 @@ msgid ""
 "Depending on the modules installed, this will allow you to define the route "
 "of the product: whether it will be bought, manufactured, replenished on "
 "order, etc."
-msgstr ""
+msgstr "根据安装的模块，这将使您可以定义产品的路线：是否将购买，制造，按订单补充等。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__name
@@ -787,41 +798,41 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__description_pickingout
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__description_pickingout
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__description_pickingout
 msgid "Description on Delivery Orders"
-msgstr ""
+msgstr "交货单说明"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__description_picking
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__description_picking
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__description_picking
 msgid "Description on Picking"
-msgstr ""
+msgstr "提货说明"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__description_pickingin
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__description_pickingin
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__description_pickingin
 msgid "Description on Receptions"
-msgstr ""
+msgstr "接待说明"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Descriptions"
-msgstr ""
+msgstr "说明"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__discount
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__discount
 msgid "Discount (%)"
-msgstr ""
+msgstr "优惠（％）"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__display_name
@@ -838,29 +849,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__display_name
 #: model:ir.model.fields,field_description:hotel.field_report_hotel_report_hotel_folio__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__display_qty_widget
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__display_qty_widget
 msgid "Display Qty Widget"
-msgstr ""
+msgstr "显示数量小部件"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__display_type
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__display_type
 msgid "Display Type"
-msgstr ""
+msgstr "显示类型"
 
 #. module: hotel
 #: model:ir.model.fields.selection,name:hotel.selection__sale_advance_payment_inv__advance_payment_method__fixed
 msgid "Down payment (fixed amount)"
-msgstr ""
+msgstr "预付款（固定金额）"
 
 #. module: hotel
 #: model:ir.model.fields.selection,name:hotel.selection__sale_advance_payment_inv__advance_payment_method__percentage
 msgid "Down payment (percentage)"
-msgstr ""
+msgstr "预付款（百分比）"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio_line__is_downpayment
@@ -868,49 +879,49 @@ msgstr ""
 msgid ""
 "Down payments are made when creating invoices from a sales order. They are "
 "not copied when duplicating a sales order."
-msgstr ""
+msgstr "根据销售订单创建发票时要先付定金。复制销售订单时不会复制它们。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Duration"
-msgstr ""
+msgstr "持续时间"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__duration_dummy
 msgid "Duration Dummy"
-msgstr ""
+msgstr "持续时间虚拟"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__duration
 msgid "Duration in Days"
-msgstr ""
+msgstr "持续天数"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_kanban
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__effective_date
 msgid "Effective Date"
-msgstr ""
+msgstr "生效日期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__date_end
 msgid "End Date"
-msgstr ""
+msgstr "结束日期"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__tracking
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__tracking
 #: model:ir.model.fields,help:hotel.field_hotel_services__tracking
 msgid "Ensure the traceability of a storable product in your warehouse."
-msgstr ""
+msgstr "确保仓库中可存储产品的可追溯性。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__expected_date
 msgid "Expected Date"
-msgstr ""
+msgstr "预产期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__property_account_expense_id
@@ -920,7 +931,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__property_account_expense_categ_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__property_account_expense_id
 msgid "Expense Account"
-msgstr ""
+msgstr "费用帐户"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__expense_policy
@@ -930,23 +941,23 @@ msgid ""
 "Expenses and vendor bills can be re-invoiced to a customer.With this option,"
 " a validated expense can be re-invoice to a customer at its cost or sales "
 "price."
-msgstr ""
+msgstr "可以将费用和供应商账单重新开票给客户。使用此选项，可以将已验证的费用按其成本或销售价格重新开票给客户。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__validity_date
 msgid "Expiration"
-msgstr ""
+msgstr "期满"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__product_no_variant_attribute_value_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__product_no_variant_attribute_value_ids
 msgid "Extra Values"
-msgstr ""
+msgstr "额外价值"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__fiscal_position_id
 msgid "Fiscal Position"
-msgstr ""
+msgstr "财政状况"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__fiscal_position_id
@@ -954,7 +965,7 @@ msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
-msgstr ""
+msgstr "财务头寸用于调整特定客户或销售订单/发票的税金和帐户。默认值来自客户。"
 
 #. module: hotel
 #: model:ir.actions.act_window,name:hotel.open_hotel_floor_form_tree
@@ -962,17 +973,17 @@ msgstr ""
 #: model:ir.ui.menu,name:hotel.menu_open_hotel_floor_form_tree
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "Floor"
-msgstr ""
+msgstr "地板"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_floor__name
 msgid "Floor Name"
-msgstr ""
+msgstr "楼层名称"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__floor_id
 msgid "Floor No"
-msgstr ""
+msgstr "楼层号"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__folio_id
@@ -980,34 +991,34 @@ msgstr ""
 #: model:ir.ui.menu,name:hotel.menu_all_folio
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Folio"
-msgstr ""
+msgstr "对开"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_room_line__folio_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__name
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Folio Number"
-msgstr ""
+msgstr "对开编号"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_wizard
 msgid "Folio Report"
-msgstr ""
+msgstr "对开报告"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "Folio Room Reservation Line"
-msgstr ""
+msgstr "对开房间预订线"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "Folio Room Reservations"
-msgstr ""
+msgstr "对开客房预订"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.hotel_folio_calendar_view
 msgid "Folios"
-msgstr ""
+msgstr "对开"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_follower_ids
@@ -1015,7 +1026,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_follower_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "追随者"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_channel_ids
@@ -1023,7 +1034,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_channel_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "追随者（渠道）"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_partner_ids
@@ -1031,21 +1042,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_partner_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "关注者（合作伙伴）"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities_type__removal_strategy_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_type__removal_strategy_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__removal_strategy_id
 msgid "Force Removal Strategy"
-msgstr ""
+msgstr "部队撤离策略"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__virtual_available
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__virtual_available
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__virtual_available
 msgid "Forecast Quantity"
-msgstr ""
+msgstr "预测数量"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__virtual_available
@@ -1057,6 +1068,10 @@ msgid ""
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
+"预测数量（计算为现有数量-发货+发货）\n"
+"在具有单个库存地点的情况下，这包括存储在该地点或其任何子项中的货物。\n"
+"在单个仓库的情况下，这包括存储在该仓库或其任何子级的库存位置中的货物。\n"
+"否则，这包括存储在任何“内部”类型的库存地点中的货物。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__free_qty
@@ -1068,107 +1083,111 @@ msgid ""
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
+"预测数量（计算为现有数量-保留数量）\n"
+"在具有单个库存地点的情况下，这包括存储在该地点或其任何子项中的货物。\n"
+"在单个仓库的情况下，这包括存储在该仓库或其任何子级的库存位置中的货物。\n"
+"否则，这包括存储在任何“内部”类型的库存地点中的货物。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__free_qty_today
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__free_qty_today
 msgid "Free Qty Today"
-msgstr ""
+msgstr "今日免费数量"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__free_qty
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__free_qty
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__free_qty
 msgid "Free To Use Quantity "
-msgstr ""
+msgstr "免费使用数量"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__ser_checkin_date
 msgid "From Date"
-msgstr ""
+msgstr "从日期"
 
 #. module: hotel
 #: model:ir.actions.act_window,name:hotel.open_hotel_folio1_form_tree_all
 #: model:ir.ui.menu,name:hotel.menu_open_hotel_folio1_form_tree_all
 msgid "Generate Folio"
-msgstr ""
+msgstr "生成对开"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__packaging_ids
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__packaging_ids
 #: model:ir.model.fields,help:hotel.field_hotel_services__packaging_ids
 msgid "Gives the different ways to package the same product."
-msgstr ""
+msgstr "提供包装同一产品的不同方法。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__sequence
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__sequence
 #: model:ir.model.fields,help:hotel.field_hotel_services__sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr ""
+msgstr "显示产品列表时给出顺序"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_search
 msgid "Group By"
-msgstr ""
+msgstr "通过...分组"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "Guest Name"
-msgstr ""
+msgstr "客人姓名"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 msgid "History"
-msgstr ""
+msgstr "历史"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_floor_form
 msgid "Hotel Floor"
-msgstr ""
+msgstr "酒店楼层"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_floor_tree
 msgid "Hotel Floors"
-msgstr ""
+msgstr "酒店楼层"
 
 #. module: hotel
 #: model:ir.actions.report,name:hotel.report_hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_tree
 msgid "Hotel Folio"
-msgstr ""
+msgstr "福里奥酒店"
 
 #. module: hotel
 #: model:ir.actions.act_window,name:hotel.hotel_folio_wizard
 #: model:ir.ui.menu,name:hotel.wizard_hotel_menu
 msgid "Hotel Folio Report"
-msgstr ""
+msgstr "酒店对开报告"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_hotel_folio_line
 msgid "Hotel Folio Room Line"
-msgstr ""
+msgstr "Hotel Folio客房线"
 
 #. module: hotel
 #: model:ir.ui.menu,name:hotel.hotel_management_menu
 msgid "Hotel Management"
-msgstr ""
+msgstr "酒店管理"
 
 #. module: hotel
 #: model:res.groups,name:hotel.group_hotel_user
 msgid "Hotel Management / User"
-msgstr ""
+msgstr "酒店管理/用户"
 
 #. module: hotel
 #: model:res.groups,name:hotel.group_hotel_manager
 msgid "Hotel Management/ Manager"
-msgstr ""
+msgstr "酒店管理/经理"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__hotel_policy
 msgid "Hotel Policy"
-msgstr ""
+msgstr "酒店政策"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_hotel_room
@@ -1176,62 +1195,62 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_search
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_tree
 msgid "Hotel Room"
-msgstr ""
+msgstr "旅馆房间"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_aenities_search
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_list
 msgid "Hotel Room Amenities"
-msgstr ""
+msgstr "酒店客房设施"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_type_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_type_list
 msgid "Hotel Room Amenities Type"
-msgstr ""
+msgstr "酒店客房设施类型"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_folio_room_line
 msgid "Hotel Room Reservation"
-msgstr ""
+msgstr "酒店客房预订"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_type_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_type_tree
 msgid "Hotel Room Type"
-msgstr ""
+msgstr "酒店房间类型"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_search
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_tree
 msgid "Hotel Services"
-msgstr ""
+msgstr "酒店服务"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_hotel_services
 msgid "Hotel Services and its charges"
-msgstr ""
+msgstr "酒店服务及其收费"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__hotel_policy
 msgid ""
 "Hotel policy for payment that either the guest has to payment at booking "
 "time or check-in check-out time."
-msgstr ""
+msgstr "客人必须在预订时或办理入住退房时付款的酒店付款政策。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__room_line_ids
 msgid "Hotel room reservation detail."
-msgstr ""
+msgstr "酒店客房预订详细信息。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__service_line_ids
 msgid ""
 "Hotel services details provided toCustomer and it will included in the main "
 "Invoice."
-msgstr ""
+msgstr "提供给客户的酒店服务详细信息将包含在主发票中。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__id
@@ -1248,7 +1267,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__id
 #: model:ir.model.fields,field_description:hotel.field_report_hotel_report_hotel_folio__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__activity_exception_icon
@@ -1256,7 +1275,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__activity_exception_icon
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "图标"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__activity_exception_icon
@@ -1264,7 +1283,7 @@ msgstr ""
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__activity_exception_icon
 #: model:ir.model.fields,help:hotel.field_hotel_services__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "表示异常活动的图标。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_folio_form
@@ -1272,7 +1291,7 @@ msgid ""
 "If a Hotel Folio is done, you cannot modify it manually anymore. However, "
 "you will still be able to invoice or deliver. This is used to freeze the "
 "Hotel Folio."
-msgstr ""
+msgstr "如果完成了Hotel Folio，您将无法再手动对其进行修改。但是，您仍然可以开票或交付。这用于冻结Hotel Folio。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__message_needaction
@@ -1284,7 +1303,7 @@ msgstr ""
 #: model:ir.model.fields,help:hotel.field_hotel_services__message_needaction
 #: model:ir.model.fields,help:hotel.field_hotel_services__message_unread
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "如果选中，则需要您注意新消息。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__message_has_error
@@ -1296,7 +1315,7 @@ msgstr ""
 #: model:ir.model.fields,help:hotel.field_hotel_services__message_has_error
 #: model:ir.model.fields,help:hotel.field_hotel_services__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "如果选中，则某些邮件有传递错误。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__active
@@ -1304,12 +1323,12 @@ msgstr ""
 #: model:ir.model.fields,help:hotel.field_hotel_services__active
 msgid ""
 "If unchecked, it will allow you to hide the product without removing it."
-msgstr ""
+msgstr "如果未选中，它将允许您隐藏产品而不将其删除。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__pricelist_id
 msgid "If you change the pricelist, only newly added lines will be affected."
-msgstr ""
+msgstr "如果更改价目表，则仅会影响新添加的行。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__picking_policy
@@ -1317,42 +1336,42 @@ msgid ""
 "If you deliver all products at once, the delivery order will be scheduled "
 "based on the greatest product lead time. Otherwise, it will be based on the "
 "shortest."
-msgstr ""
+msgstr "如果您一次交付所有产品，则将根据最大的产品交货时间安排交货订单。否则，它将以最短为基础。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__image_1920
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__image_1920
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__image_1920
 msgid "Image"
-msgstr ""
+msgstr "图片"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__image_1024
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__image_1024
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__image_1024
 msgid "Image 1024"
-msgstr ""
+msgstr "图片1024"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__image_128
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__image_128
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__image_128
 msgid "Image 128"
-msgstr ""
+msgstr "图片128"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__image_256
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__image_256
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__image_256
 msgid "Image 256"
-msgstr ""
+msgstr "图片256"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__image_512
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__image_512
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__image_512
 msgid "Image 512"
-msgstr ""
+msgstr "图片512"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__standard_price
@@ -1364,6 +1383,10 @@ msgid ""
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
+"在标准价格和AVCO中：产品价值（在AVCO中自动计算）。\n"
+"        在FIFO中：离开库存的最后一个单位的值（自动计算）。\n"
+"        用于在未知购买成本时对产品进行估价（例如，库存调整）。\n"
+"        用于计算销售订单的保证金。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__property_account_income_id
@@ -1373,54 +1396,54 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__property_account_income_categ_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__property_account_income_id
 msgid "Income Account"
-msgstr ""
+msgstr "收入账户"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__incoming_qty
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__incoming_qty
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__incoming_qty
 msgid "Incoming"
-msgstr ""
+msgstr "传入"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__incoterm
 msgid "Incoterm"
-msgstr ""
+msgstr "贸易术语"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Information"
-msgstr ""
+msgstr "信息"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__default_code
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__default_code
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__default_code
 msgid "Internal Reference"
-msgstr ""
+msgstr "内部参考"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__barcode
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities__barcode
 #: model:ir.model.fields,help:hotel.field_hotel_services__barcode
 msgid "International Article Number used for product identification."
-msgstr ""
+msgstr "用于商品识别的国际商品编号。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__incoterm
 msgid ""
 "International Commercial Terms are a series of predefined commercial terms "
 "used in international transactions."
-msgstr ""
+msgstr "国际商业术语是在国际交易中使用的一系列预定义商业术语。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__property_stock_inventory
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__property_stock_inventory
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__property_stock_inventory
 msgid "Inventory Location"
-msgstr ""
+msgstr "库存位置"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__valuation
@@ -1430,53 +1453,53 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__property_valuation
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__valuation
 msgid "Inventory Valuation"
-msgstr ""
+msgstr "库存估价"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__hotel_invoice_id
 msgid "Invoice"
-msgstr ""
+msgstr "发票"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__partner_invoice_id
 msgid "Invoice Address"
-msgstr ""
+msgstr "发票地址"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__invoice_count
 msgid "Invoice Count"
-msgstr ""
+msgstr "发票数"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__invoice_lines
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__invoice_lines
 msgid "Invoice Lines"
-msgstr ""
+msgstr "发票行"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__invoice_status
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__invoice_status
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__invoice_status
 msgid "Invoice Status"
-msgstr ""
+msgstr "发票状态"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__qty_invoiced
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__qty_invoiced
 msgid "Invoiced Quantity"
-msgstr ""
+msgstr "开票数量"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__invoice_ids
 msgid "Invoices"
-msgstr ""
+msgstr "发票"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__invoice_policy
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__invoice_policy
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__invoice_policy
 msgid "Invoicing Policy"
-msgstr ""
+msgstr "开票政策"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__iscategid
@@ -1484,7 +1507,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__iscategid
 #: model:ir.model.fields,field_description:hotel.field_product_product__iscategid
 msgid "Is Categ"
-msgstr ""
+msgstr "是Categ"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_is_follower
@@ -1492,25 +1515,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_is_follower
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "是追随者"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__is_mto
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__is_mto
 msgid "Is Mto"
-msgstr ""
+msgstr "是Mto"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__is_product_variant
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__is_product_variant
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__is_product_variant
 msgid "Is Product Variant"
-msgstr ""
+msgstr "产品是否有变化"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__is_reserved
 msgid "Is Reserved"
-msgstr ""
+msgstr "被预定了"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__isroom
@@ -1518,7 +1541,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__isroom
 #: model:ir.model.fields,field_description:hotel.field_product_product__isroom
 msgid "Is Room"
-msgstr ""
+msgstr "是房间"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__isservice
@@ -1526,43 +1549,43 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__isservice
 #: model:ir.model.fields,field_description:hotel.field_product_product__isservice
 msgid "Is Service"
-msgstr ""
+msgstr "是服务"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__has_configurable_attributes
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__has_configurable_attributes
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__has_configurable_attributes
 msgid "Is a configurable product"
-msgstr ""
+msgstr "是可配置的产品"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__is_downpayment
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__is_downpayment
 msgid "Is a down payment"
-msgstr ""
+msgstr "是预付款"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__is_expense
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__is_expense
 msgid "Is expense"
-msgstr ""
+msgstr "是费用"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__is_expired
 msgid "Is expired"
-msgstr ""
+msgstr "已过期"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio_line__is_expense
 #: model:ir.model.fields,help:hotel.field_hotel_service_line__is_expense
 msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
-msgstr ""
+msgstr "如果销售订单行来自费用或供应商账单，则为true"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_account_move
 msgid "Journal Entries"
-msgstr ""
+msgstr "日记条目"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__property_account_income_id
@@ -1570,7 +1593,7 @@ msgstr ""
 #: model:ir.model.fields,help:hotel.field_hotel_services__property_account_income_id
 msgid ""
 "Keep this field empty to use the default value from the product category."
-msgstr ""
+msgstr "将此字段保留为空以使用产品类别中的默认值。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__property_account_expense_id
@@ -1580,7 +1603,7 @@ msgid ""
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
-msgstr ""
+msgstr "将此字段保留为空以使用产品类别中的默认值。如果配置了具有自动评估方法的盎格鲁撒克逊会计，则将使用产品类别上的费用科目。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard____last_update
@@ -1597,7 +1620,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_services____last_update
 #: model:ir.model.fields,field_description:hotel.field_report_hotel_report_hotel_folio____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "最后修改时间"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__write_uid
@@ -1613,7 +1636,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__write_uid
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "最后更新者"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_folio_report_wizard__write_date
@@ -1629,40 +1652,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_type__write_date
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "最后更新时间："
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__customer_lead
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__customer_lead
 msgid "Lead Time"
-msgstr ""
+msgstr "交货时间"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_amenities_form
 msgid "List of customer taxes applied on the ty."
-msgstr ""
+msgstr "ty上应用的客户税清单。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__room_amenities
 msgid "List of room amenities. "
-msgstr ""
+msgstr "房间设施清单。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 msgid "List of supplier taxes if there any on the defined room."
-msgstr ""
+msgstr "供应商税清单，如果定义的房间上有的话。"
 
 #. module: hotel
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "List of supplier taxes related to the service provided by hotel."
-msgstr ""
+msgstr "与酒店提供的服务有关的供应商税清单。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__location_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__location_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__location_id
 msgid "Location"
-msgstr ""
+msgstr "地点"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_main_attachment_id
@@ -1670,7 +1693,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_main_attachment_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "主要附件"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__valuation
@@ -1684,6 +1707,8 @@ msgid ""
 "        Automated: An accounting entry is automatically created to value the inventory when a product enters or leaves the company.\n"
 "        "
 msgstr ""
+"手动：对库存进行评估的会计分录不会自动过帐。\n"
+"        自动化：当产品进入或离开公司时，会自动创建会计分录以对库存进行估价。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__service_type
@@ -1694,21 +1719,24 @@ msgid ""
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 msgstr ""
+"手动设置订单数量：基于手动输入的数量开票，而无需创建分析帐户。\n"
+"合同时间表：根据相关时间表上跟踪的小时数开具发票。\n"
+"创建任务并跟踪小时：在销售订单验证上创建任务并跟踪工作时间。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__max_adult
 msgid "Max Adult"
-msgstr ""
+msgstr "最多成人"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__max_child
 msgid "Max Child"
-msgstr ""
+msgstr "最大孩子"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__medium_id
 msgid "Medium"
-msgstr ""
+msgstr "中"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_has_error
@@ -1716,14 +1744,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_has_error
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "邮件传递错误"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__sale_line_warn_msg
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__sale_line_warn_msg
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__sale_line_warn_msg
 msgid "Message for Sales Order Line"
-msgstr ""
+msgstr "销售订单行的消息"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_ids
@@ -1731,20 +1759,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "留言内容"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio_line__qty_delivered_method
 #: model:ir.model.fields,field_description:hotel.field_hotel_service_line__qty_delivered_method
 msgid "Method to update delivered qty"
-msgstr ""
+msgstr "更新交货数量的方法"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__orderpoint_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__orderpoint_ids
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__orderpoint_ids
 msgid "Minimum Stock Rules"
-msgstr ""
+msgstr "最低库存规则"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_room__name
@@ -1757,12 +1785,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_room_form
 #: model_terms:ir.ui.view,arch_db:hotel.view_hotel_services_form
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__signed_by
 msgid "Name of the person that signed the SO."
-msgstr ""
+msgstr "签署SO的人的名字。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__activity_date_deadline
@@ -1770,7 +1798,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__activity_date_deadline
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "下一个活动截止日期"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__activity_summary
@@ -1778,7 +1806,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__activity_summary
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "下一个活动摘要"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__activity_type_id
@@ -1786,13 +1814,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__activity_type_id
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "下一个活动类型"
 
 #. module: hotel
 #: code:addons/hotel/models/hotel_folio.py:0
 #, python-format
 msgid "No Order found for  %s !"
-msgstr ""
+msgstr "找不到％s的订单！"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_needaction_counter
@@ -1800,7 +1828,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__message_needaction_counter
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "动作数"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio_line__customer_lead
@@ -1808,14 +1836,14 @@ msgstr ""
 msgid ""
 "Number of days between the order confirmation and the shipping of the "
 "products to the customer"
-msgstr ""
+msgstr "从订单确认到产品交付给客户之间的天数"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__duration
 msgid ""
 "Number of days which will automatically count from the check-in and check-"
 "out date. "
-msgstr ""
+msgstr "从入住和退房日期开始自动计算的天数。"
 
 #. module: hotel
 #: model:ir.model.fields,field_description:hotel.field_hotel_folio__message_has_error_counter
@@ -2117,7 +2145,9 @@ msgstr "产品展示"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_res_company__additional_hours
-msgid "Provide the min hours value for check in, checkout days, whatever the hours will be provided here based on that extra days will be calculated."
+msgid ""
+"Provide the min hours value for check in, checkout days, whatever the hours "
+"will be provided here based on that extra days will be calculated."
 msgstr "提供入住，退房天数的最小小时数，将根据该天数计算此处提供的小时数。"
 
 #. module: hotel
@@ -2183,7 +2213,7 @@ msgstr "现有数量"
 #: model:ir.model.fields,field_description:hotel.field_hotel_room_amenities__quantity_svl
 #: model:ir.model.fields,field_description:hotel.field_hotel_services__quantity_svl
 msgid "Quantity Svl"
-msgstr ""
+msgstr "数量Svl"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__incoming_qty
@@ -2195,6 +2225,10 @@ msgid ""
 "在单个仓库的情况下，这包括到达该仓库或其任何子级的库存位置的货物。\n"
 "否则，这包括以“内部”类型到达任何库存地点的货物。"
 msgstr ""
+"计划进货的数量。\n"
+"在各个存货地点的情况下，这包括到达此地点任何任何子项的货物。\n"
+"在各个仓库的情况下，这包括到达该仓库以及任何子级的库存位置的货物。\n"
+"否则，这包括以“内部”类型到达任何库存地点的货物。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room__outgoing_qty
@@ -2855,7 +2889,8 @@ msgid ""
 "anglo-saxon accounting with perpetual inventory valuation in which case the "
 "expense (Cost of Goods Sold account) is recognized at the customer invoice "
 "validation."
-msgstr "费用是在验证供应商账单时进行核算的，除了具有永久库存评估的“盎格鲁-撒克逊会计，在这种情况下，费用（已售商品成本）是在客户发票验证中确认的”。"
+msgstr ""
+"费用是在验证供应商账单时进行核算的，除了具有永久库存评估的“盎格鲁-撒克逊会计，在这种情况下，费用（已售商品成本）是在客户发票验证中确认的”。"
 
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_room_amenities_type__product_count
@@ -2874,8 +2909,8 @@ msgstr "此销售订单的付款通讯。"
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__currency_rate
 msgid ""
-"The rate of the currency to the currency of rate 1 applicable at the date of "
-"the order"
+"The rate of the currency to the currency of rate 1 applicable at the date of"
+" the order"
 msgstr "订单之日适用的货币汇率对汇率1的货币"
 
 #. module: hotel
@@ -3291,8 +3326,7 @@ msgstr ""
 msgid ""
 "When doing automated inventory valuation, this is the Accounting Journal in "
 "which entries will be automatically posted when stock moves are processed."
-msgstr ""
-"在执行自动库存评估时，这是《会计日记帐》，其中在处理库存移动时将自动过帐分录。"
+msgstr "在执行自动库存评估时，这是《会计日记帐》，其中在处理库存移动时将自动过帐分录。"
 
 #. module: hotel
 #: model:ir.model,name:hotel.model_hotel_room_amenities_type
@@ -3327,4 +3361,4 @@ msgstr "状态"
 #. module: hotel
 #: model:ir.model.fields,help:hotel.field_hotel_folio__amount_by_group
 msgid "type: [(name, amount, base, formated amount, formated base)]"
-msgstr ""
+msgstr "类型：[（名称，金额，基数，格式化量，格式化基数）]"
